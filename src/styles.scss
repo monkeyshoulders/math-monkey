@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+// Jungle Green (#2E8B57): Represents the lush greenery of the jungle.
+// Golden Sand (#F4A460): Mimics the sandy terrain found in safaris.
+// Sky Blue (#87CEEB): Evokes the clear sky of the savanna.
+// Elephant Gray (#696969): Symbolizes wildlife, such as elephants and rocks.
+// Lion Brown (#A0522D): Inspired by lions and the earthy tones of the savanna.
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --jungle-green: #2E8B57;
+  --golden-sand: #F4A460;
+  --sky-blue: #87CEEB;
+  --elephant-gray: #696969;
+  --lion-brown: #A0522D;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  // font-weight: <weight>;
+  font-style: normal;
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slackey-regular {
+  font-family: "Slackey", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
